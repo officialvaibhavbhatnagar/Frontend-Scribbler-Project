@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Libre+Franklin:ital,wght@0,100;1,100&family=Marck+Script&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Libre+Franklin:ital,wght@0,100;1,100&family=Marck+Script&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="heading">ScriBBler</h1>
+            <p class="para">Explore,Imagine,Create</p>
+        </header>   
+    </div> 
+    <div>
+            <button class="btn" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign In</button>
+            <div id="id02" class="modal">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <form class="modal-content" action="/action_page.php">
+                    <div class="container">
+                        <h1 style="text-align: center;">Welcome Back!</h1>
+                        <hr>
+                        <label for="Full name"><b>Full Name</b></label>
+                        <input type="text" placeholder="Enter Full Name">
+                        <label for="Password"><b>Password</b></label>
+                        <input type="text" placeholder="Enter Password">
+                        <button type="submit" class="signUpbtn">Sign Up</button>   
+                    </div>
+                </form>
+            </div>
+            <button class="btn" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+            <div id="id01" class="modal">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <form class="modal-content" action="/action_page.php">
+                  <div style="margin: 12px;" class="container">
+                    <h1 style="text-align: center;">Gets Started</h1>
+                    <hr>
+                    <label for="email"><b>Full Name</b></label>
+                    <input type="text" placeholder="Enter Full Name" name="email" required>
+              
+                    <label for="psw"><b>Username</b></label>
+                    <input type="password" placeholder="Enter Username" name="psw" required>
+              
+                    <label for="psw-repeat"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw-repeat" required>
+
+                    <label for="psw-repeat"><b>Confirm Password</b></label>
+                    <input type="password" placeholder="Confirm Password" name="psw-repeat" required>
+              
+                    <div class="clearfix">
+                      <!-- <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button> -->
+                      <button type="submit" class="signUpbtn">Sign Up</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            
+        </div>
+    <footer class="postButtons">
+        <a href="././html/bloglist.html">
+            <button  style="background-color: yellow; text-align: center; padding:6px 23px" >All Post</button>
+        </a>
+        
+        <button onclick="document.getElementById('id03').style.display='block'" style="background-color: yellow; padding:6px 19px">Create Post</button>
+        <div3 id="id03" class="modal">
+            <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+            <form class="modal-content" action="/action_page.php">
+              <div class="cont">
+                <h1>Pen Your Post</h1>
+                <hr>
+                <label  for="email" style="float: left;"><b>Title</b></label>
+                <input type="text" placeholder="" name="email" required>
+                <div class="contentpost">
+                    <label for="content" style="float: left;"><b>Content</b></label>
+                    <input type="text" placeholder="" style="height: 305px;">
+                </div>
+                <div class="createbutton">
+                <button class="createbutton1" style="background-color:#04AA6D; padding: 15px;">Create Post</button>
+            </div>
+            </form>
+          </div3
+    </footer>   
+</body>
+<script src="index.js">
+
+</script>
+</html>

@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    header{
+        float: left;
+    }
+    .heading{
+        color: blue;
+        font-family: 'Satisfy', cursive;
+    }
+    .para{
+        font-family: 'Satisfy', cursive;   
+    }
+    .btn{
+        float: right;
+        margin: 7px;
+        padding: 6px;
+        background-color: blue;
+        color: white;
+    }
+    .head{
+        text-align: center;
+        margin: 23px;
+        padding: 110px;
+        font-size: 28px;
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: bold;
+
+    }
+    .subhead{
+        
+        font-family: 'Updock', cursive;
+        font-size: 40px;
+        /* padding: 12px; */    
+        margin-top: -3em;
+        margin-left: 2em;
+        font-weight: bold;
+    }
+    .Editbtn{
+        float: right;
+        width: 86px;
+        height: 39px;
+        margin-top:-3em;
+        margin-right: 7em;
+        background-color: rgb(239,59,101);
+        color: #fff;
+    }
+    .content{
+    
+        width:84em;
+        height: 11em;
+        margin: 46px 79px;
+   
+   
+    }
+    .Like{
+        width: 113px;
+        height: 39px;
+        margin-top: -2em;
+        margin-left: 6em;
+        background-color: rgb(239,59,101);
+        color: #fff;
+    }
+    .pline{
+        margin-top: 1em;
+        margin-left: 5em;
+    }
+    .text{
+        margin-top: 3em;
+        margin-left: 6em;
+        resize: none;
+    }
+    .Comment{
+        margin-top: 1em;
+        margin-left: 6em;
+        width: 113px;
+        height: 39px;
+        background-color: rgb(239,59,101);
+        color: #fff;
+    }
+    .fa-edit:before{
+        padding: 8px;
+    }
+    #allPostdisplayer{
+        margin-top: 1em;
+        margin-left: 5em;
+        font-weight: bold;
+    }
+
+
+    #commentShow:before{
+        content: "";
+    }
+
+    .MyClass{
+        margin-top: 1em;
+        margin-left: 5em;
+        border: 2px solid black;
+        width: 735px;
+        height: 3em;
+        background-color: rgb(255, 255, 255);
+        padding-top: 22px;
+        padding-left: 22px;
+ 
+      
+    }
+ 

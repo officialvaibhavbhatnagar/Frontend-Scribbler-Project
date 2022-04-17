@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Libre+Franklin:ital,wght@0,100;1,100&family=Marck+Script&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Libre+Franklin:ital,wght@0,100;1,100&family=Marck+Script&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Libre+Franklin:ital,wght@0,100;1,100&family=Marck+Script&family=M+Madi&family=Satisfy&family=Updock&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Libre+Franklin:ital,wght@0,100;1,100&family=Marck+Script&family=Ms+Madi&family=Satisfy&family=Updock&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/post.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="heading">ScriBBler</h1>
+            <p class="para">Explore,Imagine,Create</p>
+        </header>   
+    </div> 
+    <div>
+        <button class="btn">Sign Up</button>
+        <button class="btn">Sign In</button>
+    </div>
+    <div>
+        <p class="head">The legacy of Jimi Henddrix</p>
+        <div class="subhead">Fimi</div>
+        <button class="Editbtn" onclick="editContent()" id="btnEditor"><i class="fa fa-edit">Edit</i></button>
+        <p class="content" id="contentTexture" >JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can bet that JavaScript is probably involved. It is the third layer of the layer cake of standard web technologies, two of which (HTML and CSS) we have covered in much more detail in other parts of the Learning Area.APIs are ready-made sets of code building blocks that allow a developer to implement programs that would otherwise be hard or impossible to implement. They do the same thing for programming that ready-made furniture kits do for home building — it is much easier to take ready-cut panels and screw them together to make a bookshelf than it is to work out the design yourself, go and find the correct wood, cut all the panels to the right size and shape, find the correct-sized screws, and then put them together to make a bookshelf.With AJAX, when you hit submit, JavaScript will make a request to the server, interpret the results, and update the current screen. In the purest sense, the user would never know that anything was even transmitted to the server.Conventional web applications transmit information to and from the sever using synchronous requests. It means you fill out a form, hit submit, and get directed to a new page with new information from the server.</p>
+        <button class="Like" id="likeIcon"><i class="fa fa-thumbs-up"> Liked!</i></button>
+        <p class="pline" id="pLineComm">Be the fisrt one to Like This !</p>
+        <textarea class="text" name="" id="textAreaComm" cols="100" rows="10" placeholder="Leave a commit..."></textarea>
+        <br>
+            <!-- <button class="Comment" onclick="commentBtnclicker()" id="commentBtn"><i class='fa fa-comment'>Comments</i></button> -->
+             <button class="Comment" onclick="commentBtnclicker()" id="commentBtn" >Comments</button>
+            <p id="allPostdisplayer">All Comments</p>
+            <div id="commentShow"></div>
+        
+        </div>
+    </div>
+    <script src="../js/post.js"></script>
+</body>
+</html>
